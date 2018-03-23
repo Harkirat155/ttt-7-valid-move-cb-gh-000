@@ -3,7 +3,7 @@ def valid_move?(fir, sec)
   if (sec < 0) || (sec > 8)
     return false
   else
-    return false
+    return true
   end
 end
 
