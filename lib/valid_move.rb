@@ -2,6 +2,8 @@
 def valid_move?(fir, sec)
   if (sec < 0) || (sec > 8)
     return false
+  elsif position_taken?(fir,sec)
+    return false
   else
     return true
   end
